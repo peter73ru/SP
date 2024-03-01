@@ -1,1 +1,12 @@
-
+*, html, body {
+  padding: 0; margin: 0; overflow: hidden;
+}
+svg {
+  display: block;
+  margin: auto;
+}
+#background {
+  background-color: #12f4e0;
+  z-index: -1;
+  position: absolute;
+}
